@@ -1,29 +1,10 @@
-# NQAP_Automation
+# Cypress_Automation
 
-NQAP testing framework for Novari Health.
+Sample project with Cypress.
 
-## Prerequisites
+Note - This code will not automate anything in it's current state. Proprietary information has been removed. 
 
-* [Node.js 11.11](https://nodejs.org/en/) 
-* [Java V8](https://www.java.com/en/download/) 
-* [Git for Windows](https://git-scm.com/downloads) 
 
-### Getting Started  
-
-## Installing
-1. Clone the repository from Azure Dev Ops (https://natcp.visualstudio.com/NQAP%20Automation/_git/NQAP%20Automation) 
-2. Open a command prompt/Git Bash/Powershell window
-3. Change directory(cd) to your repository location
-4. Run the command ``` git checkout -b ATCCypress -t origin/atccypress ```
-5. Run the following command in the terminal window 
-    ``` npm install --save-dev @babel/core cypress-cucumber-preprocessor mocha@5.2.0 mochawesome mochawesome-merge mochawesome-report-generator ```
-6. Install Cypress Globally 
-    ``` npm install cypress -g --save-dev ```
-7. Ensure the following "PATH" environment variables are set (if they are not, Set them)
-    1. Cypress
-        1. C:\Users\[YourUserAccount]\AppData\Roaming\npm\node_modules\cypress\bin
-    2. NPM
-        1. C:\Users\[YourUserAccount]\AppData\Roaming\npm
 
 ##### Note
 
@@ -52,7 +33,6 @@ B) start will open the Cypress GUI, record will do the run command with recordin
 ##### Built With
 
 * [Cypress](https://www.cypress.io/) - The web framework used
-* [Cucumber Preprocessor](https://github.com/TheBrainFamily/cypress-cucumber-preprocessor/) - Preprocessor used to write tests in Cucumber
 * [Mochawesome](https://github.com/adamgruber/mochawesome) - Mocha's custom reporter
 * [Mochawesome-Merge](https://github.com/antontelesh/mochawesome-merge) - Used to Merge several Mochawesome JSON reports
 * [Mochawesome-Report-Generator](https://github.com/adamgruber/mochawesome-report-generator) - Counterpart to mochawesome to generate the html reports from the JSON files.
