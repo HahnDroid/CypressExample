@@ -1,6 +1,8 @@
 # node modules #
 node_modules
 Globals/globalsModule.js
+credentials.json
+gmail_token.json
 # Compiled source #
 ###################
 *.com

@@ -1,0 +1,25 @@
+{
+  "viewportWidth": 1920,
+  "viewportHeight": 1080,
+  "reporter": "mochawesome",
+  "reporterOptions": {
+    "reportDir": "cypress/reports",
+    "overwrite": false,
+    "html": false,
+    "json": true
+  },
+  "projectId": "123456",
+  "ignoreTestFiles": [],
+  "env": {
+    "test": {
+      "url": "https://LoginURL.com",
+      "user": "AdminUser@gmail.com",
+      "pass": "Password123!"
+    },
+    "dev": {
+      "url": "https://LoginURL-Develop.com",
+      "user": "AdminUser@gmail.com",
+      "pass": "Password123!"
+    }
+  }
+}
