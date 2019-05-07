@@ -1,0 +1,60 @@
+# node modules #
+node_modules
+examples
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Config #
+############
+/*.conf.js
+
+# Packages #
+############
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Logs,databases, and Images #
+######################
+*.log
+*.sql
+*.sqlite
+*.xml
+*.png
+*.img
+*.bmp
+*.html
+mochawesome*.json
+*.mp4
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Cypress Specific #
+####################
+mochawesome*.json
+**/assets/*
+*.feature.mp4
+*.js.mp4
+*.mp4
+*.y4m
