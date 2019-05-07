@@ -5,12 +5,12 @@ import '../../../support/commands'
 describe('Admin registers a user', function () {
     it('Registers a customer from the home screen link', function () {
 
-        cy.get('.right:nth-child(1)').as("btnRegisterPatient")
-        cy.get('@btnRegisterPatient').click()
-        cy.title().should('eq', 'Register a User')
-        cy.get('.patient-form', { timeout: 10000 }).should("exist")
-        cy.xpath("//select[@name='adminId']")
-            .select('76d4baf1-b4c3-4141-1234-74280191b1e5') // select Admin from drop down
+        cy.get('.right:nth-child(1)').as("btnRegisterCustomer")
+        cy.get('@btnRegisterCustomer').click()
+        cy.title().should('eq', 'Register a Customer')
+        cy.get('.register-form', { timeout: 10000 }).should("exist")
+        cy.xpath("//select[@name='groupId']")
+            .select('76d4baf1-b4c3-4141-1234-74280191b1e5') // select group Id from drop down
         cy.get('#HealthCardNumber').type(luhn.random(10))
         cy.get('#FirstName').type('Cypress')
         cy.get('#LastName').type('Automation')
